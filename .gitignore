@@ -1,0 +1,46 @@
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+coverage/
+.nyc_output/
+dist/
+build/
+*.tgz
+
+# ===== Zmienne środowiskowe / sekrety =====
+.env
+.env.*
+!.env.example
+
+# ===== Docker =====
+docker-compose.override.yml
+.docker/
+
+# ===== Lokalne dane MongoDB =====
+data/
+mongo-data/
+mongodb-data/
+db-data/
+*.mongodump
+dump/
+
+# ===== Logi =====
+logs/
+*.log
+
+# ===== Python (skrypty pomocnicze) =====
+__pycache__/
+*.pyc
+.venv/
+
+# ===== System / IDE =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
